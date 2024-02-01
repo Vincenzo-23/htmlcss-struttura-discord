@@ -57,9 +57,9 @@ a{
     
 }
 
-.col-60{
+.section-header .col-60{
     width: 60%;
-    
+    text-align: center;
 }
 
 
@@ -182,6 +182,31 @@ width: calc(100%/6);
 
 
 
+.section-footer{
+    background-color: rgb(73, 71, 71);
+    padding: 15px;
+    border-top: 2px solid lightgray;
+}
+
+
+.section-footer .container{
+    background-color: rgb(147, 243, 243);
+    
+}
+
+ .section-footer .col-50{
+    background-color: beige;
+    height: 100px;
+    
+}
+
+.section-footer .row{
+    justify-content: space-between;
+}
+
+.section-footer .container{
+    padding: 10px 0;
+}
 
 
 
@@ -197,7 +222,7 @@ width: calc(100%/6);
 
 
 
-    * DEBUG */
+    /* DEBUG */
 
 /* .debug .container{
     border: 2px solid rgb(255, 251, 0);
