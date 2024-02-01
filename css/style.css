@@ -1,5 +1,48 @@
+/* RESET */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+
+ol,
+ul,
+menu{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+.debug .container{
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.debug .row {
+    border: 2px solid orange;
+    padding: 20px;
+}
+
+.debug [class^="col"] {
+    border: 2px solid rgb(18, 211, 195);
+    padding: 20px;
+    min-height: 100px;
 }
