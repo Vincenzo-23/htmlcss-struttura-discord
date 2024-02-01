@@ -139,6 +139,20 @@ a{
 }
 
 
+/* Main servers */
+
+.main-servers{
+    background-color: #dedede;
+    padding: 40px;
+}
+
+.main-servers .col-100{
+    background-color: green;
+    height: 600px;
+}
+
+
+
 
 
 
