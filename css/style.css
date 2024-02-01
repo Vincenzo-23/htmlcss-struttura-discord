@@ -128,8 +128,15 @@ a{
 
 /* Main calls */
 
+.main-calls{
+    padding: 40px;
+}
 
-
+.main-calls .col-60{
+    width: 60%;
+    height: 300px;
+    background-color: rgb(247, 181, 59);
+}
 
 
 
