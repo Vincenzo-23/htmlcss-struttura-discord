@@ -76,6 +76,7 @@ a{
 
 .main-header .container{
     background-color: rgb(253, 67, 67);
+    width: 700px;
 }
 
 .col-100{
@@ -85,7 +86,7 @@ a{
 
 
 
-/* Main Chat */
+/* Main chat */
 
 .main-chat{
     padding: 40px;
@@ -103,6 +104,31 @@ a{
     height: 300px;
     background-color: rgb(250, 142, 223);
 }
+
+
+/* Main group */
+
+.main-group .col-60{
+    width: 60%;
+    height: 300px;
+    background-color: rgb(247, 181, 59);
+}
+
+
+.main-group .row{
+    flex-direction: row-reverse;
+}
+
+.main-group{
+    background-color: #dedede;
+}
+
+
+
+/* Main calls */
+
+
+
 
 
 
