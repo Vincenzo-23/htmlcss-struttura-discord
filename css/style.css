@@ -37,8 +37,13 @@ a{
 }
 
 
+
+/* HEADER */
+
+
 .section-header{
     background-color: beige;
+    padding: 15px;
 }
 
 
@@ -58,23 +63,69 @@ a{
 }
 
 
+/* MAIN */
+
+
+/* Main header */
+
+.main-header {
+    background-color: blue;
+    padding: 40px;
+}
+
+
+.main-header .container{
+    background-color: rgb(253, 67, 67);
+}
+
+.col-100{
+    width: 100%;
+    height: 200px;
+}
+
+
+
+/* Main Chat */
+
+.main-chat{
+    padding: 40px;
+}
+
+
+.main-chat .col-60{
+    width: 60%;
+    height: 300px;
+    background-color: rgb(247, 181, 59);
+}
+
+.col-40{
+    width: 40%;
+    height: 300px;
+    background-color: rgb(250, 142, 223);
+}
+
+
+
+
+
+
 
 
 
 /* DEBUG */
 
-.debug .container{
-    border: 2px solid black;
+/* .debug .container{
+    border: 2px solid rgb(255, 251, 0);
     padding: 20px;
-}
+} */
 
-.debug .row {
-    border: 2px solid rgb(255, 123, 0);
+/* .debug .row {
+    border: 2px solid rgb(255, 0, 0);
     padding: 20px;
-}
+} */
 
 .debug [class^="col"] {
-    border: 2px solid rgb(211, 18, 137);
+    border: 2px solid rgb(3, 1, 2);
     padding: 40px;
     min-height: 100px;
 }
